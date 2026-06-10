@@ -64,3 +64,4 @@ def category_posts(request, category_slug):
     """Страница категории постов"""
     context = {'category': category_slug}
     return render(request, 'blog/category.html', context)
+    
