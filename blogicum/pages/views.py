@@ -9,4 +9,3 @@ def about(request):
 def rules(request):
     """Страница 'Правила'"""
     return render(request, 'pages/rules.html')
-    
